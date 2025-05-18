@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Win a Car Lottery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Win a Brand New Car Worth ₦12 Million!</h1>
+    <p class="subtitle">Get a ticket for just ₦5,000!</p>
+
+    <form id="ticketForm">
+      <label for="pack">Select Ticket Pack:</label>
+      <select id="pack">
+        <option value="1">1 Ticket – ₦5,000</option>
+        <option value="5">5 Tickets – ₦23,000</option>
+        <option value="10">10 Tickets – ₦45,000</option>
+      </select>
+
+      <label>Name:</label>
+      <input type="text" name="name" required />
+
+      <label>Email:</label>
+      <input type="email" name="email" />
+
+      <label>WhatsApp Number:</label>
+      <input type="text" name="whatsapp" />
+
+      <label>Phone Number:</label>
+      <input type="text" name="phone" />
+
+      <label>Address:</label>
+      <input type="text" name="address" />
+
+      <button type="submit">Proceed to Payment</button>
+    </form>
+
+    <p class="note">We accept Bank Transfer, ATM Cards, Crypto, and more.</p>
+
+    <section class="winners">
+      <h2>Past Winners</h2>
+      <div class="winner-card">
+        <img src="winners/winner1.jpg" alt="Winner 1">
+        <p><strong>Chinedu A. – Lagos</strong><br>Won a Toyota Corolla 2023</p>
+      </div>
+      <div class="winner-card">
+        <img src="winners/winner2.jpg" alt="Winner 2">
+        <p><strong>Blessing O. – Abuja</strong><br>Won ₦1 Million Cash Prize</p>
+      </div>
+      <div class="winner-card">
+        <img src="winners/winner3.jpg" alt="Winner 3">
+        <p><strong>Tunde K. – PH</strong><br>Won a Brand-New Motorcycle</p>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
